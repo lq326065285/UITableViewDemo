@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1B174381200E129100C0A9E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B174380200E129100C0A9E5 /* AppDelegate.m */; };
-		1B174384200E129100C0A9E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B174383200E129100C0A9E5 /* ViewController.m */; };
 		1B174387200E129100C0A9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B174385200E129100C0A9E5 /* Main.storyboard */; };
 		1B174389200E129100C0A9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B174388200E129100C0A9E5 /* Assets.xcassets */; };
 		1B17438C200E129100C0A9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B17438A200E129100C0A9E5 /* LaunchScreen.storyboard */; };
 		1B17438F200E129100C0A9E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17438E200E129100C0A9E5 /* main.m */; };
 		1B174399200E129100C0A9E5 /* UITableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B174398200E129100C0A9E5 /* UITableViewDemoTests.m */; };
 		1B1743A4200E129100C0A9E5 /* UITableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743A3200E129100C0A9E5 /* UITableViewDemoUITests.m */; };
+		1B1743C1200E12A900C0A9E5 /* LQTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743B4200E12A800C0A9E5 /* LQTableViewModel.m */; };
+		1B1743C2200E12A900C0A9E5 /* LQCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743B7200E12A800C0A9E5 /* LQCell.m */; };
+		1B1743C3200E12A900C0A9E5 /* LQTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743BA200E12A800C0A9E5 /* LQTableModel.m */; };
+		1B1743C4200E12A900C0A9E5 /* LQTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743BF200E12A800C0A9E5 /* LQTableView.m */; };
+		1B1743C5200E12A900C0A9E5 /* LQSuperTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743C0200E12A800C0A9E5 /* LQSuperTableView.m */; };
+		1B1743EE200F42A700C0A9E5 /* LQTableViewDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743ED200F42A700C0A9E5 /* LQTableViewDataTool.m */; };
+		1B1743FB200F446300C0A9E5 /* LQHomeTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743F5200F446300C0A9E5 /* LQHomeTableViewModel.m */; };
+		1B1743FC200F446300C0A9E5 /* LQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743F8200F446300C0A9E5 /* LQHomeViewController.m */; };
+		1B1743FF200F448500C0A9E5 /* LQHomeModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1743FE200F448500C0A9E5 /* LQHomeModel1.m */; };
+		1B174402200F4AF400C0A9E5 /* LQHomeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B174401200F4AF400C0A9E5 /* LQHomeTableView.m */; };
+		1B174406200F4B2200C0A9E5 /* LQHomeCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B174404200F4B2200C0A9E5 /* LQHomeCell1.m */; };
+		1B174407200F4B2200C0A9E5 /* LQHomeCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B174405200F4B2200C0A9E5 /* LQHomeCell1.xib */; };
+		1B17440B200F4B6D00C0A9E5 /* LQHomeCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B174409200F4B6D00C0A9E5 /* LQHomeCell2.m */; };
+		1B17440C200F4B6D00C0A9E5 /* LQHomeCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B17440A200F4B6D00C0A9E5 /* LQHomeCell2.xib */; };
+		1B17440F200F4B7B00C0A9E5 /* LQHomeCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17440E200F4B7B00C0A9E5 /* LQHomeCell3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +52,6 @@
 		1B17437C200E129100C0A9E5 /* UITableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B17437F200E129100C0A9E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B174380200E129100C0A9E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B174382200E129100C0A9E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B174383200E129100C0A9E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B174386200E129100C0A9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B174388200E129100C0A9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B17438B200E129100C0A9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,35 @@
 		1B17439F200E129100C0A9E5 /* UITableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1743A3200E129100C0A9E5 /* UITableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewDemoUITests.m; sourceTree = "<group>"; };
 		1B1743A5200E129100C0A9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1743B3200E12A800C0A9E5 /* LQTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQTableViewModel.h; sourceTree = "<group>"; };
+		1B1743B4200E12A800C0A9E5 /* LQTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQTableViewModel.m; sourceTree = "<group>"; };
+		1B1743B6200E12A800C0A9E5 /* LQCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCell.h; sourceTree = "<group>"; };
+		1B1743B7200E12A800C0A9E5 /* LQCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCell.m; sourceTree = "<group>"; };
+		1B1743B8200E12A800C0A9E5 /* LQTableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQTableViewProtocol.h; sourceTree = "<group>"; };
+		1B1743BA200E12A800C0A9E5 /* LQTableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQTableModel.m; sourceTree = "<group>"; };
+		1B1743BB200E12A800C0A9E5 /* LQTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQTableModel.h; sourceTree = "<group>"; };
+		1B1743BD200E12A800C0A9E5 /* LQTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQTableView.h; sourceTree = "<group>"; };
+		1B1743BE200E12A800C0A9E5 /* LQSuperTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSuperTableView.h; sourceTree = "<group>"; };
+		1B1743BF200E12A800C0A9E5 /* LQTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQTableView.m; sourceTree = "<group>"; };
+		1B1743C0200E12A800C0A9E5 /* LQSuperTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQSuperTableView.m; sourceTree = "<group>"; };
+		1B1743EC200F42A700C0A9E5 /* LQTableViewDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTableViewDataTool.h; sourceTree = "<group>"; };
+		1B1743ED200F42A700C0A9E5 /* LQTableViewDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTableViewDataTool.m; sourceTree = "<group>"; };
+		1B1743F4200F446300C0A9E5 /* LQHomeTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeTableViewModel.h; sourceTree = "<group>"; };
+		1B1743F5200F446300C0A9E5 /* LQHomeTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeTableViewModel.m; sourceTree = "<group>"; };
+		1B1743F8200F446300C0A9E5 /* LQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeViewController.m; sourceTree = "<group>"; };
+		1B1743F9200F446300C0A9E5 /* LQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeViewController.h; sourceTree = "<group>"; };
+		1B1743FD200F448500C0A9E5 /* LQHomeModel1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQHomeModel1.h; sourceTree = "<group>"; };
+		1B1743FE200F448500C0A9E5 /* LQHomeModel1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQHomeModel1.m; sourceTree = "<group>"; };
+		1B174400200F4AF400C0A9E5 /* LQHomeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQHomeTableView.h; sourceTree = "<group>"; };
+		1B174401200F4AF400C0A9E5 /* LQHomeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQHomeTableView.m; sourceTree = "<group>"; };
+		1B174403200F4B2200C0A9E5 /* LQHomeCell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQHomeCell1.h; sourceTree = "<group>"; };
+		1B174404200F4B2200C0A9E5 /* LQHomeCell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQHomeCell1.m; sourceTree = "<group>"; };
+		1B174405200F4B2200C0A9E5 /* LQHomeCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQHomeCell1.xib; sourceTree = "<group>"; };
+		1B174408200F4B6D00C0A9E5 /* LQHomeCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQHomeCell2.h; sourceTree = "<group>"; };
+		1B174409200F4B6D00C0A9E5 /* LQHomeCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQHomeCell2.m; sourceTree = "<group>"; };
+		1B17440A200F4B6D00C0A9E5 /* LQHomeCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQHomeCell2.xib; sourceTree = "<group>"; };
+		1B17440D200F4B7B00C0A9E5 /* LQHomeCell3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQHomeCell3.h; sourceTree = "<group>"; };
+		1B17440E200F4B7B00C0A9E5 /* LQHomeCell3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQHomeCell3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +142,10 @@
 		1B17437E200E129100C0A9E5 /* UITableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1B1743F2200F446300C0A9E5 /* Home */,
+				1B1743B1200E12A800C0A9E5 /* TableView */,
 				1B17437F200E129100C0A9E5 /* AppDelegate.h */,
 				1B174380200E129100C0A9E5 /* AppDelegate.m */,
-				1B174382200E129100C0A9E5 /* ViewController.h */,
-				1B174383200E129100C0A9E5 /* ViewController.m */,
 				1B174385200E129100C0A9E5 /* Main.storyboard */,
 				1B174388200E129100C0A9E5 /* Assets.xcassets */,
 				1B17438A200E129100C0A9E5 /* LaunchScreen.storyboard */,
@@ -130,6 +171,121 @@
 				1B1743A5200E129100C0A9E5 /* Info.plist */,
 			);
 			path = UITableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		1B1743B1200E12A800C0A9E5 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743B8200E12A800C0A9E5 /* LQTableViewProtocol.h */,
+				1B1743EB200F425A00C0A9E5 /* Tools */,
+				1B1743B2200E12A800C0A9E5 /* ViewModels */,
+				1B1743B5200E12A800C0A9E5 /* Cells */,
+				1B1743B9200E12A800C0A9E5 /* Models */,
+				1B1743BC200E12A800C0A9E5 /* Views */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1B1743B2200E12A800C0A9E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743B3200E12A800C0A9E5 /* LQTableViewModel.h */,
+				1B1743B4200E12A800C0A9E5 /* LQTableViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1B1743B5200E12A800C0A9E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743B6200E12A800C0A9E5 /* LQCell.h */,
+				1B1743B7200E12A800C0A9E5 /* LQCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1B1743B9200E12A800C0A9E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743BB200E12A800C0A9E5 /* LQTableModel.h */,
+				1B1743BA200E12A800C0A9E5 /* LQTableModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B1743BC200E12A800C0A9E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743BD200E12A800C0A9E5 /* LQTableView.h */,
+				1B1743BF200E12A800C0A9E5 /* LQTableView.m */,
+				1B1743BE200E12A800C0A9E5 /* LQSuperTableView.h */,
+				1B1743C0200E12A800C0A9E5 /* LQSuperTableView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B1743EB200F425A00C0A9E5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743EC200F42A700C0A9E5 /* LQTableViewDataTool.h */,
+				1B1743ED200F42A700C0A9E5 /* LQTableViewDataTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1B1743F2200F446300C0A9E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743F3200F446300C0A9E5 /* ViewModels */,
+				1B1743F6200F446300C0A9E5 /* Models */,
+				1B1743F7200F446300C0A9E5 /* ViewControllers */,
+				1B1743FA200F446300C0A9E5 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1B1743F3200F446300C0A9E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743F4200F446300C0A9E5 /* LQHomeTableViewModel.h */,
+				1B1743F5200F446300C0A9E5 /* LQHomeTableViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1B1743F6200F446300C0A9E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743FD200F448500C0A9E5 /* LQHomeModel1.h */,
+				1B1743FE200F448500C0A9E5 /* LQHomeModel1.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B1743F7200F446300C0A9E5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B1743F9200F446300C0A9E5 /* LQHomeViewController.h */,
+				1B1743F8200F446300C0A9E5 /* LQHomeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B1743FA200F446300C0A9E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B174400200F4AF400C0A9E5 /* LQHomeTableView.h */,
+				1B174401200F4AF400C0A9E5 /* LQHomeTableView.m */,
+				1B174403200F4B2200C0A9E5 /* LQHomeCell1.h */,
+				1B174404200F4B2200C0A9E5 /* LQHomeCell1.m */,
+				1B174405200F4B2200C0A9E5 /* LQHomeCell1.xib */,
+				1B174408200F4B6D00C0A9E5 /* LQHomeCell2.h */,
+				1B174409200F4B6D00C0A9E5 /* LQHomeCell2.m */,
+				1B17440A200F4B6D00C0A9E5 /* LQHomeCell2.xib */,
+				1B17440D200F4B7B00C0A9E5 /* LQHomeCell3.h */,
+				1B17440E200F4B7B00C0A9E5 /* LQHomeCell3.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +394,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B17440C200F4B6D00C0A9E5 /* LQHomeCell2.xib in Resources */,
 				1B17438C200E129100C0A9E5 /* LaunchScreen.storyboard in Resources */,
 				1B174389200E129100C0A9E5 /* Assets.xcassets in Resources */,
 				1B174387200E129100C0A9E5 /* Main.storyboard in Resources */,
+				1B174407200F4B2200C0A9E5 /* LQHomeCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +423,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B174384200E129100C0A9E5 /* ViewController.m in Sources */,
+				1B1743C3200E12A900C0A9E5 /* LQTableModel.m in Sources */,
 				1B17438F200E129100C0A9E5 /* main.m in Sources */,
+				1B17440B200F4B6D00C0A9E5 /* LQHomeCell2.m in Sources */,
+				1B1743EE200F42A700C0A9E5 /* LQTableViewDataTool.m in Sources */,
+				1B1743C1200E12A900C0A9E5 /* LQTableViewModel.m in Sources */,
+				1B1743FC200F446300C0A9E5 /* LQHomeViewController.m in Sources */,
+				1B174402200F4AF400C0A9E5 /* LQHomeTableView.m in Sources */,
+				1B1743C5200E12A900C0A9E5 /* LQSuperTableView.m in Sources */,
+				1B1743C2200E12A900C0A9E5 /* LQCell.m in Sources */,
+				1B1743FB200F446300C0A9E5 /* LQHomeTableViewModel.m in Sources */,
+				1B1743FF200F448500C0A9E5 /* LQHomeModel1.m in Sources */,
+				1B174406200F4B2200C0A9E5 /* LQHomeCell1.m in Sources */,
 				1B174381200E129100C0A9E5 /* AppDelegate.m in Sources */,
+				1B17440F200F4B7B00C0A9E5 /* LQHomeCell3.m in Sources */,
+				1B1743C4200E12A900C0A9E5 /* LQTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +602,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UITableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = s.UITableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +616,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UITableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = s.UITableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
