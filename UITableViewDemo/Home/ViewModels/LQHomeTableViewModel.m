@@ -20,10 +20,23 @@
     NSMutableArray * arr = [NSMutableArray array];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         for (int i = 0; i < 10; i++) {
-            LQHomeModel1 * model = [[LQHomeModel1 alloc] init];
-            model.name = [NSString stringWithFormat:@"person_%d",i];
-            model.job = [NSString stringWithFormat:@"job_%d",i];
-            [arr addObject:model];
+            NSMutableArray * subArr = [NSMutableArray array];
+            
+            //多数组
+            for(int j = 0; j < 4; j++){
+                LQHomeModel1 * model = [[LQHomeModel1 alloc] init];
+                model.name = [NSString stringWithFormat:@"person_%d_%d",i,j];
+                model.job = [NSString stringWithFormat:@"job_%d_%d",i,j];
+                [subArr addObject:model];
+            }
+            [arr addObject:subArr];
+            
+            
+            //单数组
+//            LQHomeModel1 * model = [[LQHomeModel1 alloc] init];
+//            model.name = [NSString stringWithFormat:@"person_%d",i];
+//            model.job = [NSString stringWithFormat:@"job_%d",i];
+//            [arr addObject:model];
         }
         
         [self getTableViewDataWithData:arr];
@@ -51,8 +64,8 @@
         else if([dataModel isKindOfClass:[NSArray class]]){//二维数组，这里我只做个一维数组，所以先不考虑二维数组的情况
             NSArray * data = (NSArray *)dataModel;
             NSMutableArray * myData2 = [NSMutableArray array];
-            for (int j = 0; j < data.count; i++) {
-                LQTableModel * model = [LQTableModel getTableModelWithDataModel:dataModel isXib:YES cellName:@"LQHomeCell1"];
+            for (int j = 0; j < data.count; j++) {
+                LQTableModel * model = [LQTableModel getTableModelWithDataModel:data[j] isXib:YES cellName:@"LQHomeCell1"];
                 [myData2 addObject:model];
             }
             [self.dataArr addObject:myData2];

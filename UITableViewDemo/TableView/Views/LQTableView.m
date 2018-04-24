@@ -44,6 +44,7 @@
     LQTableModel * model = [self getModelWithIndexPath:indexPath];
     LQCell* cell = (LQCell *)[tableView dequeueReusableCellWithIdentifier:model.configModel.cellName];
     if ([cell respondsToSelector:@selector(setModel:)]) {//如果是注册的默认cell就不会调用这个方法
+        
         [cell setModel:model.dataModel];
     }
     return cell;
@@ -72,6 +73,7 @@
     return model.dataModel.cellHeight;
 }
 
+
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     return .000001;
 }
@@ -80,4 +82,11 @@
     return .000001;
 }
 
+-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    return [[UIView alloc] init];
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    return [[UIView alloc] init];
+}
 @end

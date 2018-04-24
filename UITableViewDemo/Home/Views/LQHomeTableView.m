@@ -34,5 +34,9 @@
     return 60;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 10;
+}
+
 
 @end

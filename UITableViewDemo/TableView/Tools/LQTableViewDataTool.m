@@ -9,5 +9,7 @@
 #import "LQTableViewDataTool.h"
 
 @implementation LQTableViewDataTool
-
++(NSArray *)getDataToolFromDataTool:(NSArray *)dataArr{
+    return @[];
+}
 @end
